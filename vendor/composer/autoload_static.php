@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit02de162fca92f5af7e5e6069e4f7d67a
+class ComposerStaticInitfae0a0f4cc393b14cfda94140f92342b
 {
     public static $files = array (
         '44ef1d8ec27ad01e41d8f15ce932b11b' => __DIR__ . '/../..' . '/source/Boot/Config.php',
@@ -13,9 +13,17 @@ class ComposerStaticInit02de162fca92f5af7e5e6069e4f7d67a
     );
 
     public static $prefixLengthsPsr4 = array (
+        'W' => 
+        array (
+            'WebPConvert\\' => 12,
+        ),
         'S' => 
         array (
             'Source\\' => 7,
+        ),
+        'P' => 
+        array (
+            'PHPMailer\\PHPMailer\\' => 20,
         ),
         'M' => 
         array (
@@ -26,17 +34,33 @@ class ComposerStaticInit02de162fca92f5af7e5e6069e4f7d67a
         array (
             'League\\Plates\\' => 14,
         ),
+        'I' => 
+        array (
+            'ImageMimeTypeGuesser\\' => 21,
+        ),
         'C' => 
         array (
+            'CoffeeCode\\Uploader\\' => 20,
             'CoffeeCode\\Router\\' => 18,
+            'CoffeeCode\\Paginator\\' => 21,
             'CoffeeCode\\Optimizer\\' => 21,
+            'CoffeeCode\\DataLayer\\' => 21,
+            'CoffeeCode\\Cropper\\' => 19,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'WebPConvert\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/rosell-dk/webp-convert/src',
+        ),
         'Source\\' => 
         array (
             0 => __DIR__ . '/../..' . '/source',
+        ),
+        'PHPMailer\\PHPMailer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
         ),
         'MatthiasMullie\\PathConverter\\' => 
         array (
@@ -50,13 +74,33 @@ class ComposerStaticInit02de162fca92f5af7e5e6069e4f7d67a
         array (
             0 => __DIR__ . '/..' . '/league/plates/src',
         ),
+        'ImageMimeTypeGuesser\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/rosell-dk/image-mime-type-guesser/src',
+        ),
+        'CoffeeCode\\Uploader\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/coffeecode/uploader/src',
+        ),
         'CoffeeCode\\Router\\' => 
         array (
             0 => __DIR__ . '/..' . '/coffeecode/router/src',
         ),
+        'CoffeeCode\\Paginator\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/coffeecode/paginator/src',
+        ),
         'CoffeeCode\\Optimizer\\' => 
         array (
             0 => __DIR__ . '/..' . '/coffeecode/optimizer/src',
+        ),
+        'CoffeeCode\\DataLayer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/coffeecode/datalayer/src',
+        ),
+        'CoffeeCode\\Cropper\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/coffeecode/cropper/src',
         ),
     );
 
@@ -67,9 +111,9 @@ class ComposerStaticInit02de162fca92f5af7e5e6069e4f7d67a
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit02de162fca92f5af7e5e6069e4f7d67a::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit02de162fca92f5af7e5e6069e4f7d67a::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit02de162fca92f5af7e5e6069e4f7d67a::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitfae0a0f4cc393b14cfda94140f92342b::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitfae0a0f4cc393b14cfda94140f92342b::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitfae0a0f4cc393b14cfda94140f92342b::$classMap;
 
         }, null, ClassLoader::class);
     }
