@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'upinside/fsphp',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '68ace69815eb57a4601b36afda304513b6bd3b21',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -119,9 +119,9 @@
             'dev_requirement' => false,
         ),
         'upinside/fsphp' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '68ace69815eb57a4601b36afda304513b6bd3b21',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
