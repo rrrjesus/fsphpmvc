@@ -1,4 +1,4 @@
-## Descrição: FsphpMVC - Plataforma de Desenvolvimento SaaS
+## FsphpMVC - Plataforma de Desenvolvimento SaaS
 
 O **FsphpMVC** é um sistema SaaS (Software as a Service) projetado para simplificar e acelerar o desenvolvimento de aplicações web robustas e escaláveis. Ele oferece uma arquitetura pré-configurada baseada no popular padrão **MVC (Model-View-Controller)**, fornecendo aos desenvolvedores uma base sólida e reutilizável para a criação de seus próprios projetos.
 
