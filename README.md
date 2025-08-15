@@ -31,4 +31,4 @@ O FsphpMVC é um projeto de código aberto. Encorajamos a colaboração de desen
 ---
 
 **Licença:**
-Este projeto está sob a licença [inserir nome da licença, por exemplo: MIT].
+Este projeto está sob a licença MIT.
